@@ -1,0 +1,158 @@
+@media (max-width:670px) {
+    #pricing .box-pricings {
+        display: flex;
+        flex-direction: column;
+        padding-bottom:50px;
+    }
+
+    #pricing .box {
+        width: 90%;
+        margin-bottom: 0px;
+        text-align: center;
+    }
+
+    .fa {
+        display: block !important;
+        font-size: 35px !important;
+        color:white;
+        right: 20px;
+        top: 20px;
+        position: absolute;
+        color: #874356 !important;
+    }
+
+    #pricing .std {
+        height: 300px !important;
+        
+    }
+
+    .top-wrapper .btn-order {
+        width: 90% !important ;
+        margin-left:0 !important;
+    }
+
+    .header-left .logo {
+        padding-left: 10px;
+    }
+
+    .banner-right {
+        display: none;
+    }
+
+    .banner-left {
+        width: 100%;
+        padding-left:10px;
+    }
+
+    .container {
+        width: 100%;
+      }
+      .profiles {
+        justify-content: center;
+      }
+      .profile {
+        font-size: 16px;
+        margin-bottom: 20px;
+      }
+      .footer__list {
+        font-size: 16px;
+      }
+      footer .container {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        gap: 30px;
+      }
+
+      .column img {
+          display: none;
+      }
+
+      .header-right {
+          display: none;
+      }
+
+      .column h1 {
+          font-size:30px;
+          text-align: left;
+      }
+      .column p {
+          text-align: left;
+          font-size:25px;
+      }
+
+      #gallery .container .contents-wrapper .content img {
+          width: 230px;
+          height: 230px;
+          text-align: center;
+      }
+
+      .kiri {
+          text-align: center;
+      }
+
+      .kanan {
+          text-align: center;
+      }
+
+      #gallery .container .contents-wrapper {
+            margin-top:5px;
+      }
+
+}
+
+@media (max-width: 844px){
+    #gallery {
+        padding-bottom: 230px;
+    }
+
+    #gallery .container .contents-wrapper .content.kiri img {
+        float: none;
+        margin-right: 0;
+    }
+      
+    #gallery .container .contents-wrapper .content.kanan img {
+        float: none;
+        margin-left: 0;
+    }
+
+    #gallery .container .contents-wrapper .content:nth-child(n+2) {
+        margin-top: 240px;
+    }
+}
+
+@media (max-width:1000px) {
+    #pricing .std {
+        height: 370px;
+        
+    }
+
+    .header-left a {
+        padding-left: 50px;
+    }
+
+    .header-right {
+        margin-right: 30px;
+    }
+    .top-wrapper {
+        width: 100%;
+    }
+
+    #pricing .box .btn-more, .btn-special {
+        font-size: 10px;
+    }
+
+    #pricing .box .list-fitur li {
+        font-size: 15px;
+    }
+
+    .column img {
+        position: absolute;
+    }
+
+    .banner-left .btn-order {
+        display: block;
+        margin-left:70px;
+        width: 260px;
+    }
+}
