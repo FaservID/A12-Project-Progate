@@ -11,4 +11,4 @@
     <li>Inggih Rembang Setyo</li>
 </ol>
 
-<a href="https://www.figma.com/file/wMX41O8AOKunoQeF9Gmg00/PROGATE?node-id=0%3A1">Design Website</a>
+<a href="https://www.figma.com/file/wMX41O8AOKunoQeF9Gmg00/PROGATE?node-id=0%3A1" target="_blank">Design Interface Website</a>
